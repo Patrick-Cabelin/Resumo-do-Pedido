@@ -9,3 +9,7 @@
 - tag de semântica do HTML5 
 - Elementos personalizados CSS3
 
+## Autor
+
+Patrick Alex.
+"cabelo"
