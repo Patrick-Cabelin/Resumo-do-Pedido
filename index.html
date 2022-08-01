@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> 
+  <title>Mentor Frontend | Cartão de resumo do pedido</title>
+
+  <style>
+    @font-face {
+      src: url('https://fonts.googleapis.com/css2? família=Red+Hat+Display:wght@500;700;900&display=swap');
+      font-family:'Red Hat Display', sans-serif;
+    }
+
+    *{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+
+    }
+
+    body{
+      background-color: rgb(224, 232, 255);
+      background-image: url('images/pattern-background-desktop.svg');
+      font-family: 'Red Hat Display', sans-serif;
+      color:#1f2f56;
+    }
+
+    div.dance{
+      background-image: url('images/illustration-hero.svg');
+      background-repeat: no-repeat;
+
+      width: 450px;
+      height: 220px;
+    
+      border-radius: 15px 15px 0px 0px;
+    }
+
+    main{
+      background-color: rgb(255,255,255);
+      border-radius: 15px;
+      text-align: justify;
+
+      width: 450px;
+      height: 660px;
+
+      margin: auto;
+    }
+    main h1{
+      text-align: center;
+    }
+    
+    .descrição{
+    width: 350px;
+    height: 135px;
+    text-align: center;
+
+    margin: auto;
+    padding: 28px;
+    }
+
+    .plano{
+      background-color:rgb(245, 247, 255);
+      height: 90px;
+      width: 390px;
+      margin: 0px 0px 30px 30px;
+      padding: 0px 0px 0px 65px;
+      border-radius: 20px;
+
+    }
+
+    img{
+      position: relative;
+      transform: translate(-55px, 18px);
+    }
+
+    .plano a {
+      position: relative;
+      top: -60%;
+      left: 75%;
+    }
+    
+
+    .plano p {
+      color:#1f2f56;
+      position: relative;
+      top: -25px;
+      left: 45px;
+    }
+
+    #botão{
+      background-color: #382AE1;
+      width: 390px;
+      height: 90px;
+      margin: 0px 30px 10px 30px;
+      padding: 30px 25px 25px 50px ;
+
+      border-radius: 20px;
+      box-shadow: 8px 6px 45px -4px rgba(0, 0, 0, 0.39);
+    }
+    #botão > a {
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.4em;
+      color: rgb(245, 247, 255);
+
+    }
+    main > a {
+      color:#999AA8;
+      text-decoration: none;
+      font-weight: 700;
+      position: relative;
+      top: 10px;
+      left: 160px;
+    }
+    footer{
+      font-size: 11px; text-align: center;
+    }
+    footer a {
+      color: rgb(61, 82, 163); 
+    }
+  </style>
+</head>
+<body>
+  
+  <main>
+    <div class="dance"></div>
+    <h1>Resumo Do Pedido</h1>
+
+  <div class="descrição">
+    <p>
+      Agora você pode ouvir milhões de músicas, audiolivros e podcasts em qualquer
+      dispositivo em qualquer lugar que você gosta!
+    </p>
+  </div>
+    <div class="plano">
+      <img src="images/icon-music.svg" alt="icon-music">
+      <p>
+        <strong>Planejamento anual</strong> <br>
+        US$ 59,99/ano
+      </p>
+      <a href="#">Mudança</a>
+    </div>
+
+    <div id="botão"><a href="#" target="_self" rel="next">Prossiga para o Pagamento</a></div>
+
+     <a href="#" target="_self" rel="next">Cancelar Pedido</a> 
+
+  </main>
+
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a> Feito por <a href="https://github.com/Patrick-Cabelin" target="_blank" rel="noopener">Patrick</a>. 
+  </footer >
+</body>
+</html>
