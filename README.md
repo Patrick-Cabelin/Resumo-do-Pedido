@@ -13,3 +13,5 @@
 
 Patrick Alex.
 "cabelo"
+
+deploy: https://patrick-cabelin.github.io/Resumo-do-Pedido/
